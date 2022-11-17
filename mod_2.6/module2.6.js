@@ -16,3 +16,4 @@ while (true) {
     if (dice == 6)  break
 
 }
+

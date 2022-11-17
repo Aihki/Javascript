@@ -42,3 +42,5 @@ candidates.sort((a, b) => b.votes - a.votes)
  console.log(`the winner is ${candidates[0].name} with ${candidates[0].votes} votes.`)
  for(const candida of candidates)
  console.log(`${candida.name} : ${candida.votes} votes.`)
+
+ 

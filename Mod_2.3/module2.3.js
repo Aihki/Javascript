@@ -17,3 +17,4 @@ doge.forEach(dog => {
     document.getElementById('dogs').append(element)
 })
 console.log(doge)
+

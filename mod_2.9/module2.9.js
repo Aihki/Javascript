@@ -8,7 +8,6 @@ Write a function called even(), which receives an array containing numbers as a 
 
 */
 
-
 function even(arr) {
     let evenNum = arr.filter(x => x % 2 === 0)
     return evenNum
@@ -21,3 +20,4 @@ const arr = [1 ,2 ,3 ,4 , 5, 6, 7, 150, 221, 999, 740]
 const newArr = even(arr)
 console.log(arr)
 console.log(newArr)
+
