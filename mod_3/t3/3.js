@@ -5,3 +5,4 @@ names.forEach(name => {
     document.querySelector("#target").innerHTML += `<li>${name}</li>`
 
 })
+
