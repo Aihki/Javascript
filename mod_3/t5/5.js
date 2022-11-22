@@ -92,5 +92,32 @@ const picArray = [
   },
 ];
 
+
+
 // add your code here
+
+picArray.forEach(pic => {
+  const article  = document.createElement("article")
+  const h = document.createElement("h2")
+  const figure = document.createElement("figure")
+  const img  = document.createElement("img")
+  const figcaption = document.createElement("figcaption")
+  const p = document.createElement("p")
+
+
+  article.append(h, figure, p)
+  h.textContent = pic.title
+  
+
+  figure.append(img, figcaption)
+  img.src = pic.image.medium
+  img.alt = pic.title
+  figcaption.textContent = pic.caption
+
+  p.textContent = pic.description
+  document.querySelector("#pictures").appendChild(article)
+
+ 
+
+})
 

@@ -14,3 +14,9 @@ const students = [
   },
 ];
 
+students.forEach(student => {
+  const school = document.createElement("option")
+  school.value = student.id
+  school.textContent = student.name
+  document.querySelector("#target").appendChild(school)
+})
