@@ -6,6 +6,7 @@ document.querySelector("#trigger").addEventListener("mouseleave", () => {
   });*/
   
 
+  
 document.querySelector("#target").addEventListener("mouseover", () => {
   document.querySelector("#target").src = "./img/picB.jpg"
   })
